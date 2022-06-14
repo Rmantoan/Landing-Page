@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-decoration: none;
+}
+
+body{
+   background-color: rgb(5 4 4 / 84%);
+   color: white;
+   margin: 0;
+   font-family: 'Source Serif Pro', serif;
+   width: 100%;
+   height: 100%;
+}
+
+header{
+    margin: 0 70px 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.545);
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+    color: white;
+    padding-top: 30px;
+    font-size: 18px;
+}
+
+li:hover{
+    color: rgba(239, 99, 48, 0.829);
+    transition: 0.3s all;
+}
+
+#simulação{
+    border: 2px solid rgba(239, 99, 48, 0.829);
+    padding: 14px 40px;
+    border-radius: 15px;
+}
+
+#simulação:hover{
+    background-color: rgba(239, 99, 48, 0.829);
+    color: white;
+}
+ 
+#titulo{
+    flex-direction: column;  
+}
+
+h2{
+    line-height: 10px;
+}
+
+ul{
+    height: 115px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin:60px;
+    height: 500px;
+}
+
+section{
+    width: 60%;
+    margin-right: 60px;
+}
+
+form{
+    width: 40%;
+    background: rgba(239, 99, 48, 0.829);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 4px 5px 4px rgba(9, 9, 9, 0.67);
+}
+
+input{
+    margin-top: 20px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form [type="submit"]{
+    width: 40%;
+    font-weight: bold;
+    box-shadow: 4px 5px 4px rgba(10, 10, 10, 0.543)
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.545);
+
+}
+
